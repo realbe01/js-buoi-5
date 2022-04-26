@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./sty.css" />
+</head>
+
+<body>
+  <!-- Bài toán chính 1 -->
+  <section id="signup">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h3 pt-3>Quản lý sinh viên</h3>
+          <div class="form-group">
+            <label class="header" for="">Điểm chuẩn </label>
+            <input id="diemChuan" placeholder="Điểm chuẩn" type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="">Chọn khu vực</label>
+            <select id="khuVuc" class="form-control">
+              <option>Chọn khu vực</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="">Chọn đối tượng</label>
+            <select id="doiTuong" class="form-control">
+              <option>Chọn đối tượng</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <!-- <label class="header" for="">Điểm môn 1 </label> -->
+            <input placeholder="Điểm môn 1" id="diemMon1" type="number" class="form-control" />
+          </div>
+          <div class="form-group">
+            <!-- <label class="header" for="">Điểm môn 2 </label> -->
+            <input placeholder="Điểm môn 2" id="diemMon2" type="number" class="form-control" />
+          </div>
+          <div class="form-group">
+            <!-- <label class="header" for="">Điểm môn 3 </label> -->
+            <input placeholder="Điểm môn 3" id="diemMon3" type="number" class="form-control" />
+          </div>
+          <button id="kiemTra" class="btn btn-danger">Kiểm tra</button>
+        </div>
+        <div id="footerkiemTra" class="card-footer text-muted "></div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Bài toán chính 2  -->
+  <section id="signup" >
+    <div class="container-fluid">
+      <div class="row">
+        <h3>Tính tiền điện</h3>
+        <div class="col">
+          <div class="form-group">
+            <input id="ten" placeholder="Nhập họ và tên" type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <input placeholder="Nhập số kw" id="soKW" type="number" class="form-control" />
+          </div>
+          <div id="show">
+          <button id="kiemTraTienDien" class="btn btn-danger">Tính tiền điện</button>
+          <div id="footerTienDien" class="card-footer text-muted bg-white "></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./main.js"></script>
+  ​
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
